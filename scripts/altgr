@@ -1,0 +1,4 @@
+clear Mod5
+keycode 51 = slash questiondown questiondown braceright
+add Mod5 = Mode_switch
+
