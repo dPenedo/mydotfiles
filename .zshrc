@@ -111,11 +111,17 @@ alias lg="lazygit"
 
 
 
-# lfcd () { echo; ls; zle redisplay }
-# % zle -N namingthingsishard                  
-# % bindkey '\ee' namingthingsishard
+# flatpak programs
+
+alias obsidian="flatpak run md.obsidian.Obsidian"
+alias musescore="flatpak run org.musescore.MuseScore"
+alias spotify="flatpak run com.spotify.Client"
+alias zotero="flatpak run org.zotero.Zotero"
+
+
+
 bindkey -s '\ee' 'lfcd^M'
-# bindkey -s "^L" 'ls^M'
+bindkey -s '\er' 'ranger^M'
 
 
 lfcd () {
